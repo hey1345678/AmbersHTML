@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambers Food Website</title>
+    
+    
+    <link rel="stylesheet" href="/Users/goodboykit/Downloads/AmbersHTML/index.css">
+    
+    <!-- <link rel="stylesheet" href="./assets/css/media_query.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600;700&display=swap">
+
+
+    <!-- icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--- #HEADER -->
+        <header>
+            <nav class="navbar">
+                <div class="navbar-wrapper">
+                    <a href="#" class="logo">
+                        <img src="IMAGE/LOGO/amber-logo.png" alt="logo">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link">About Us </a>
+                        </li>
+                        <li>
+                            <a href="#menu" class="nav-link">Our Menu</a>
+                        </li>
+                        <li>
+                            <a href="#bestdishes" class="nav-link">Best Dishes</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="nav-link">Contact </a>
+                        </li>
+
+                    </ul>
+
+
+
+                    <!-- Sign Up Form Pane -->
+
+
+                    <div class="navbar-btn-group">
+
+
+                        <button class="shopping-cart-btn2">
+                            <img src="IMAGE/LOGO/image%203.png" alt="shopping cart icon" width="40" style="margin-left: 20px;">
+                        </button>
+                        <button class="menu-toggle-btn"></button>
+                    </div>
+
+
+                    <div class="sign-up-pane">
+                        <div class="sign-up-box">
+                            <img src="IMAGE/LOGO/amber-logo.png" alt="shopping cart icon" width="150" style="place-content: start">
+
+                            <form class="sign-up-form">
+                                <h4>Create your Account</h4>
+
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <div class="input-container">
+                                        <ion-icon name="person-outline"></ion-icon>
+                                        <input type="text" id="username" name="username" required>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="form-group">
+                                    <label for="address">Address</label>
+
+                                    <div class="input-container">
+
+                                        <ion-icon name="location-outline"></ion-icon>
+                                        <input type="text" id="address" name="address" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+
+                                    <div class="input-container">
+
+                                        <ion-icon name="mail-outline"></ion-icon>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="mobile">Mobile Number</label>
+                                    <div class="input-container">
+
+                                        <ion-icon name="call-outline"></ion-icon>
+                                        <input type="text" id="mobile" name="mobile" required>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+
+                                    <div class="input-container">
+
+                                        <ion-icon name="lock-closed-outline"></ion-icon>
+                                        <input type="password" id="password" name="password" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="confirm_password">Confirm Password</label>
+
+                                    <div class="input-container">
+                                        <ion-icon name="lock-closed-outline"></ion-icon>
+                                        <input type="password" id="confirm_password" name="confirm_password" required>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                            </form>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- VIEW YOUR CART------->
+
+
+                    <button class="shopping-cart-btn">
+                        <img src="IMAGE/LOGO/Group%20242-2.jpg" alt="shopping cart icon" width="53">
+                    </button>
+
+                    <button class="menu-toggle-btn">
+
+                    </button>
+
+                </div>
+
+
+
+            </nav>
+
+            
+            
+            <div class="cart-box">
+
+                <ul class="cart-box-ul">
+
+                    <h4 class="cart-h4">View your Cart</h4>
+
+
+                    <li>
+                        <a href="#" class="cart-item">
+                            <div class="img-box">
+                                <img src="IMAGE/PANCIT/Bihon%20Guisado%20Top%200182.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+                            </div>
+
+                            <h5 class="product-name">Bihon Guisado</h5>
+                            <p class="product-price">
+                                <span class="small">₱</span>789
+                            </p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="cart-item">
+                            <div class="img-box">
+                                <img src="IMAGE/DESSERT/Pichi%20Cheese.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+                            </div>
+
+                            <h5 class="product-name">Pichi-pichi with cheese</h5>
+                            <p class="product-price">
+                                <span class="small">₱</span>1400
+
+                            </p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="cart-item">
+                            <div class="img-box">
+                                <img src="IMAGE/CHICKEN/Garlic%20Fried%20Chicken.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+                            </div>
+
+                            <h5 class="product-name">Garlic Fried Chicken</h5>
+                            <p class="product-price">
+                                <span class="small">₱</span>850
+
+                            </p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="cart-item">
+                            <div class="img-box">
+                                <img src="IMAGE/PANCIT/spaghetti.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+                            </div>
+
+                            <h5 class="product-name">Spaghetti with Meat Sauce</h5>
+                            <p class="product-price">
+                                <span class="small">₱</span>550
+
+                            </p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="cart-item">
+                            <div class="img-box">
+                                <img src="IMAGE/DIMSUM/Siopao-Asado.jpg" alt="product image" class="product-img" width="50" height="50" loading="lazy">
+                            </div>
+
+                            <h5 class="product-name">Pork Asado Siopao</h5>
+                            <p class="product-price">
+                                <span class="small">₱</span>350
+
+                            </p>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="cart-btn-group">
+                    <button class="btn btn-secondary">View order</button>
+                    <button class="btn btn-primary">Checkout</button>
+                </div>
+
+            </div>
+
+
+
+        </header>
+
+
+        <main>
+            <!--  - #HOME SECTION -->
+
+            <section class="home" id="home ">
+
+
+
+                <div class="home-left">
+                    <h1 class="home-subtext">Welcome to Ambers Food Philippines!</h1>
+
+                    <h1 class="main-heading2">Enjoy our </h1>
+
+
+                    <h1 class="main-heading">Traditional Filipino Food</h1>
+
+                    <p class="home-text">
+                        Our menu features all your favorite Filipino dishes, from savory adobo and crispy kare-kare to refreshing lumpia and sinigang. We also offer a variety of delicious desserts, like halo-halo and leche flan.
+                    </p>
+
+                    <div class="btn-group">
+                        
+                        
+                            <img src="IMAGE/LOGO/Group%20228.png" alt="menu icon" style="width: 200px" height="100px">
+<!--                        </button>-->
+                        <button class="btn btn-secondary btn-icon">
+                            <img src="./assets/images/arrow.svg" alt="menu icon">
+                            About us
+                        </button>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="home-right">
+
+                    <img src="IMAGE/LOGO/Rectangle%201260.png" alt="food image" class="food-img food-4" loading="lazy">
+
+
+                    <img src="IMAGE/REMOVEBG/Buttered_Fried_Chicken-removebg-preview.png" alt="food image" class="food-img food-1" width="245px" loading="lazy">
+
+                    <img src="IMAGE/REMOVEBG/Pancit_trio-removebg-preview.png" alt="food image" class="food-2" loading="lazy">
+
+                    <img src="IMAGE/REMOVEBG/Pichi_Cheese-removebg-preview.png" alt="food image" class="food-img food-3" width="50px" loading="lazy">
+
+                    <img src="IMAGE/LOGO/dialog-1.svg" alt="dialog" class="dialog dialog-1" width="230">
+
+
+                    <img src="IMAGE/LOGO/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">
+
+                    <img src="IMAGE/LOGO/circle.svg" alt="circle shape" class="shape shape-1" width="50">
+
+
+                    <img src="IMAGE/LOGO/circle.svg" alt="circle shape" class="shape shape-2" width="28">
+                    <img src="IMAGE/LOGO/circle.svg" alt="circle shape" class="shape shape-3" width="50">
+                    <img src="IMAGE/LOGO/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+                    <img src="IMAGE/LOGO/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+                    
+                         <img src="IMAGE/LOGO/circle.svg" alt="circle shape" class="shape shape-6" width="28">
+                    <img src="IMAGE/LOGO/circle.svg" alt="circle shape" class="shape shape-7" width="50">
+
+                </div>
+
+
+
+            </section>
+
+
+        </main>
+
+
+    </div>
+
+
+
+
+    <!--- custom js link -->
+
+    <script src="script.js"> </script>
+
+    <!--- ionicon link-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+</body>
+
+
+</html>
